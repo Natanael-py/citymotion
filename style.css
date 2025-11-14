@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('assets/fundomap.jpeg');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 85%;
+    width: 85%;
+    background-color: #fafdfa;
+    /*   background-color: transparent;
+    backdrop-filter: blur(150px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    overflow: hidden; */
+    border-radius: 20px;
+    display: flex;
+
+
+}
+.pin {stroke: white;}
+
+.main-esquerdo {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-direito {
+    width: 40%;
+    height: 100%;
+    background-image: url(/assets/backgroud-celular.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-color: #c6e0c8;
+    border-radius: 20px;
+
+}
+
+.topo {
+
+    height: 25%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 3%;
+    padding-left: 60px;
+    gap: 10px;
+}
+
+.icone {
+    background-color: #16a249;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+
+.textoh3 {
+    padding-bottom: 4px;
+}
+
+.meio {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.textoh1-2 {
+    color: #16a249;
+}
+
+.meio h1 {
+    font-size: 60px;
+}
+
+.meio p {
+    padding-top: 20px;
+    font-size: 20px;
+    color: #878792;
+}
+
+.meio2 {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    padding-top: 20px;
+}
+
+.icones-meio2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.icons {
+    
+    background-color: #cfcfd1;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+
+}
+.baixo{
+    height: 25%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 60px;
+    gap: 25px;
+    padding-top: 5%;
+}
+.button1{
+    background-color: #16a249;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+.button2{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #878792;
+}
